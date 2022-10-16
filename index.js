@@ -472,7 +472,7 @@ $(document).ready(function(){
         .append(`<br>COND. PAGAMENTO: ${PAGAMENTO}`)
         .append(`<br>MOTIVO: ${MOTIVO}`)
         
-        
+        .append('<br><button id="copiar">Copiar</button>') 
         .append('<br><a href="https://api.whatsapp.com/send?phone=5585997990070&text=" target="_blank"><button id="wpp2">Enviar via Whatsapp</button></a>')
         
 
@@ -523,6 +523,7 @@ $(document).ready(function(){
         .append(`<br>COND. PAGAMENTO: ${PAGAMENTO}`)
         .append(`<br>MOTIVO: ${MOTIVO}`)
         
+        .append('<br><button id="copiar">Copiar</button>') 
         .append('<br><a href="https://api.whatsapp.com/send?phone=5585997990070&text=" target="_blank"><button>Enviar via whatsapp</button></a>')
     }
 // IMPRIMIR QUATRO ÍTENS
@@ -583,7 +584,8 @@ $(document).ready(function(){
         .append(`<br>ÚLTIMO PREÇO: ${ultpreco3}`)
         .append(`<br>COND. PAGAMENTO: ${PAGAMENTO}`)
         .append(`<br>MOTIVO: ${MOTIVO}`)
-
+        
+        .append('<br><button id="copiar">Copiar</button>') 
         .append('<br><a href="https://api.whatsapp.com/send?phone=5585997990070&text=" target="_blank"><button>Enviar via whatsapp</button></a>')
     }
 // IMPRIMIR CINCO ÍTENS
@@ -659,6 +661,7 @@ $(document).ready(function(){
         .append(`<br>COND. PAGAMENTO: ${PAGAMENTO}`)
         .append(`<br>MOTIVO: ${MOTIVO}`)
         
+        .append('<br><button id="copiar">Copiar</button>') 
         .append('<br><a href="https://api.whatsapp.com/send?phone=5585997990070&text=" target="_blank"><button>Enviar via whatsapp</button></a>')
     }
 
